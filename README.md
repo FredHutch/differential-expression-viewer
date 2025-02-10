@@ -43,7 +43,7 @@ uv pip install -r requirements.txt
 Launch the app in editable notebook format:
 
 ```
-marimo edit diffexp.marimo.py
+marimo edit app.py
 ```
 
 Launch the app locally via HTML-WASM
