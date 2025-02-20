@@ -45,8 +45,8 @@ async def _(micropip, mo, running_in_wasm):
             micropip.uninstall("httpx")
             await micropip.install(["urllib3==2.3.0"])
             await micropip.install([
-                "boto3==1.36.3",
-                "botocore==1.36.3"
+                "boto3==1.36.23",
+                "botocore==1.36.23"
             ], verbose=True)
             await micropip.install(["cirro[pyodide]>=1.2.16"], verbose=True)
 
